@@ -59,7 +59,7 @@ body, html {
 
 .jumbotron-fluid{
 
-  background-color: #063e06;
+  background-color: #4c306d;
 }
 h1.display-4{
 color:#ead411;
@@ -72,11 +72,55 @@ p.lead {
 /*Navbar*/
 
 nav.navbar.navbar-expand-lg {
-    background-color: #063e06;
+    background-color: #4c306d;
 }
 a.navbar-brand {
   color:#ead411;
 }
 a.nav-link{
   color:#ead411;
+}
+
+/*zoom*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  position: relative;
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+  
+}
+.item img {
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*footer*/
+.navbar.navbar-inverse.navbar-fixed-bottom {
+    background-color: #4c306d;
+    margin-top: 20px;
+}
+
+
+.leftp {
+  float: left;
+}
+
+.rightp {
+  float: right;
 }
