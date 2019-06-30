@@ -2,6 +2,9 @@ body, html {
     height: 100%;
     width:100%;
 }
+#container {
+   height:100%;
+}
 
  #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
   /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
@@ -71,7 +74,7 @@ p.lead {
 
 /*Navbar*/
 
-nav.navbar.navbar-expand-lg {
+nav.navbar.navbar-expand-md {
     background-color: #4c306d;
 }
 a.navbar-brand {
@@ -95,11 +98,11 @@ a.nav-link{
   border: 1px solid #333;
   margin: 2%;
   overflow: hidden;
-  
+
 }
 .item img {
   max-width: 100%;
-  
+
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -111,16 +114,23 @@ a.nav-link{
 }
 
 /*footer*/
-.navbar.navbar-inverse.navbar-fixed-bottom {
-    background-color: #4c306d;
-    margin-top: 20px;
+.footer {
+  /*position: fixed;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4c306d;
+  color: white;
+  text-align: center;
+
+  /*height:60px;   /* Height of the footer */*/
+
+}
+.container-moj{
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
-
-.leftp {
-  float: left;
-}
-
-.rightp {
-  float: right;
+.fa.fa-navicon {
+  color:white;
 }
