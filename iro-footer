@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  <footer class="iro-footer">
         <img class="iro-footer-badge" src="/static/images/logo-badge.png" alt="Vala Estate">
         <div class="container">
@@ -46,4 +47,54 @@
               </div>
           </div>
         </div>
+=======
+ <footer class="iro-footer">
+        <img class="iro-footer-badge" src="/static/images/logo-badge.png" alt="Vala Estate">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>Kontakt</h3>
+                <ul class="iro-footer-contact-info">
+                  <li><i class="fa fa-home" aria-hidden="true"></i> Ulica Jaz 1, Malinska HR-51511</li>
+                  <li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="tel:+38551568917" title="+385 51 568 917"> +385 51 568 917</a></li>
+                  <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+385994440500" title="+385 99 444 0500"> +385 99 444 0550</a></li>
+                  <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+385911222320" title="+385 91 122 2320"> +385 91 122 2320</a></li>
+                  <li><i class="fa fa-envelope" aria-hidden="true"></i> info@vala-estate.com</li>
+                </ul>
+                <h3>Info</h3>
+                <ul class="iro-footer-contact-info">
+                  <li><a href="https://vala-estate.com/hr/pages/about" title="O nama">O nama</a></li>
+                  <li><a href="/static/files/vala_estate_tos.pdf" title=" Uvjeti poslovanja" target="_blank"> Uvjeti poslovanja</a></li>
+                  <li><a href="/static/files/vala_estate_pp.pdf" title=" Pravila o privatnosti" target="_blank"> Pravila o privatnosti</a></li>
+                </ul>
+              </div>
+              <div class="col-md-offset-6 col-md-3 col-sm-6 col-xs-12">
+                <h3> Ponuda nekretnina</h3>
+                <ul class="iro-footer-realestates">
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=12" title="Nekretnine Baška">Nekretnine Baška</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=4" title="Nekretnine Crikvenica rivijera">Nekretnine Crikvenica rivijera</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=7" title="Nekretnine Dobrinj">Nekretnine Dobrinj</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=14" title="Nekretnine Istra">Nekretnine Istra</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=2" title="Nekretnine Krk">Nekretnine Krk</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=1" title="Nekretnine Malinska">Nekretnine Malinska</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=3" title="Nekretnine Njivice">Nekretnine Njivice</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=15" title="Nekretnine Omišalj">Nekretnine Omišalj</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=16" title="Nekretnine Opatija Rivijera">Nekretnine Opatija Rivijera</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=9" title="Nekretnine Punat">Nekretnine Punat</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=11" title="Nekretnine Šilo">Nekretnine Šilo</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=13" title="Nekretnine Uvala Soline">Nekretnine Uvala Soline</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=5" title="Nekretnine Vinodolska rivijera">Nekretnine Vinodolska rivijera</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=10" title="Nekretnine Vrbnik">Nekretnine Vrbnik</a></li>
+                                      <li><a href="https://vala-estate.com/hr/list?custom_location_id=8" title="Novogradnje">Novogradnje</a></li>
+                                  </ul>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 iro-copyright">
+                <hr>
+                <p>Copyright &copy; 2019 Vala Estate</p>
+                <p> Cijene su izražene u EUR (Eurima) a plative u Kn (Kunama) po srednjem tečaju HNB (Hrvatske Narodne Banke).</p>
+                <p>Web Design & Powered by <span class="iro-iro-orange">i</span><span class="iro-iro-white">Real</span><span class="iro-iro-orange">One</span> - <a href="https://irealone.com" title="iRealOne -  program za vođenje nekretnina" target="_blank"> program za vođenje nekretnina</a>.</p>
+              </div>
+          </div>
+        </div>
+>>>>>>> c4ec9730cc91124fa1ff74c0a504c70e86120fcc
       </footer>

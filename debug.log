@@ -25,6 +25,9 @@
 [0630/161958.345:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0630/161958.360:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0630/161958.360:ERROR:crash_report_database_win.cc(469)] failed to stat report
+<<<<<<< HEAD
 [0630/162114.756:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0630/162114.756:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0630/162114.756:ERROR:crash_report_database_win.cc(469)] failed to stat report
+=======
+>>>>>>> c4ec9730cc91124fa1ff74c0a504c70e86120fcc
