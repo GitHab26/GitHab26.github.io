@@ -242,7 +242,7 @@ div#collapsibleNavbar {
   width: 663px;
   height: 168px;
   
-  animation: slideLeft 20s 3s /*infinite*/;
+  animation: slideLeft 15s 3s /*infinite*/;
 }
 
 @keyframes slideLeft {
