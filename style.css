@@ -89,7 +89,7 @@ a.navbar-brand {
   color:#ead411;
 }
 a.nav-link{
-  color:#ead411;
+  color:white;
 }
 
 /*zoom*/
@@ -141,7 +141,7 @@ padding:50px;
 {
 list-style-type:none;
 color:#098c9c;
-font-size:10px;
+font-size:15px;
 }
 
 #footer-container-fluid ul .title
@@ -220,5 +220,32 @@ h1.animated.infinite.bounce.delay-2s {
   font-size: 20px;
 }
 
+div#collapsibleNavbar {
+    text-align: center;
 }
 
+}
+
+.vl {
+  border-left: 6px solid green;
+ /* height: px;*/
+}
+
+
+/*avion*/
+
+#animate {
+  position: absolute;
+  top: 0;
+  left: 100vw;
+  background-image: url(https://www.turbotobias.dk/wp-content/uploads/2019/03/Fly-med-banner-TurboTobias-Graphics2.svg);
+  width: 663px;
+  height: 168px;
+  
+  animation: slideLeft 20s 3s /*infinite*/;
+}
+
+@keyframes slideLeft {
+  from { left: 100vw; }
+  to { transform: translateX(-200vw); }
+}
