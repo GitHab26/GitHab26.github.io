@@ -235,13 +235,13 @@ div#collapsibleNavbar {
 /*avion*/
 
 #animate {
-  position: absolute;
+  /*position: absolute;
   top: 0;
-  left: 100vw;
+  left: 100vw;*/
   background-image: url(https://www.turbotobias.dk/wp-content/uploads/2019/03/Fly-med-banner-TurboTobias-Graphics2.svg);
-  width: 663px;
+  width: 600px;
   height: 168px;
-  
+  color:white;
   animation: slideLeft 15s 3s /*infinite*/;
 }
 
