@@ -157,6 +157,11 @@ color:white;
  
 
 
+/* button modal*/
+button.btn.btn-info.btn-lg {
+    background-color: #007AFF;
+}
+
 
 .social:hover {
      -webkit-transform: scale(1.1);
@@ -173,6 +178,13 @@ color:white;
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
  }
+
+
+/*lista bullets*/
+.modal-body ul li{
+  list-style: none;
+}
+
 
 /*
     Multicoloured Hover Variations
@@ -227,7 +239,7 @@ div#collapsibleNavbar {
 }
 
 .vl {
-  border-left: 6px solid green;
+  border-left: 1px solid green;
  /* height: px;*/
 }
 
@@ -248,4 +260,12 @@ div#collapsibleNavbar {
 @keyframes slideLeft {
   from { left: 100vw; }
   to { transform: translateX(-200vw); }
+}
+
+/*navbar*/
+
+@media (min-width: 768px){
+a.nav-link {
+    display: inline-block;
+}
 }
