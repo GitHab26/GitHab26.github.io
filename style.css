@@ -269,3 +269,7 @@ a.nav-link {
     display: inline-block;
 }
 }
+
+.carousel-item img {
+  width:100%;
+}
