@@ -10,7 +10,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */url("home.jpg");
+  background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */url("home2.jpg");
 
   /* Set a specific height */
   height: 60%;
@@ -65,7 +65,7 @@ span.navbar-toggler-icon {
 
 .jumbotron-fluid{
 
-  background-color: black;
+  background-color: #09403f;
 }
 h1.display-4{
 color: white;
@@ -79,11 +79,11 @@ p.lead {
 
 nav.navbar.navbar-expand-lg {
     
-    background-color: black;
+    background-color: #09403f;
 }
 
 nav.navbar.navbar-expand-md {
-    background-color: black;
+    background-color: #09403f;
 }
 a.navbar-brand {
   color:#ead411;
@@ -125,7 +125,7 @@ a.nav-link{
 #footer-container-fluid
 {
 background-image: url("../images/");
-background-color:black;
+background-color:#09403f;
 background-attachment:scroll;
 background-repeat:no-repeat;
 background-position:center;
@@ -133,7 +133,7 @@ background-size:cover;
 
 /*margin-left:100px;
 margin-right:100px;*/
-padding:50px;
+padding:30px;
 }
  
 
@@ -155,13 +155,91 @@ font-size:15px;
 color:white;
 }
  
+/*NOVO*/
+/* GENERAL BUTTON STYLING */
+
+
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #09403f;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #fff;
+  padding: 15px 70px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #09403f;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+.btn:hover {
+    color: white;
+}
+
+.modal-footer .btn:hover{
+  color: white;
+}
+
+.link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.link a {
+ color: white;
+  font-size: 25px; 
+}
+
+a{
+  color: white;
+}
 
 
 /* button modal*/
 button.btn.btn-info.btn-lg {
-    background-color: #007AFF;
+    /*background-color:#87578b;*/
 }
 
+.btn-info {
+   /* color: #fff;
+    background-color: #17a2b8;*/
+/*    border-color: #87578b;
+*/}
+
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+   /* color: #fff;*/
+    background-color: #6c456f;
+    border-color: #6c456f;
+}
 
 .social:hover {
      -webkit-transform: scale(1.1);
@@ -239,7 +317,7 @@ div#collapsibleNavbar {
 }
 
 .vl {
-  border-left: 1px solid green;
+  border-left: 1px solid white;
  /* height: px;*/
 }
 
@@ -272,4 +350,9 @@ a.nav-link {
 
 .carousel-item img {
   width:100%;
+}
+
+
+.card-deck {
+    margin-bottom: 20px;
 }
