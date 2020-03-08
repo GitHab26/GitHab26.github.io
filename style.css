@@ -1,6 +1,11 @@
 body, html {
     height: 100%;
     width:100%;
+
+font-family: 'Raleway', sans-serif;
+
+
+
 }
 
  #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -10,10 +15,15 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */url("home2.jpg");
+  background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */ url("home2.jpg");
+/*  background: url(home2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
 
   /* Set a specific height */
-  height: 60%;
+  height: 50%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -65,7 +75,7 @@ span.navbar-toggler-icon {
 
 .jumbotron-fluid{
 
-  background-color: #09403f;
+  background-color: #0fa2a0;
 }
 h1.display-4{
 color: white;
@@ -79,11 +89,11 @@ p.lead {
 
 nav.navbar.navbar-expand-lg {
     
-    background-color: #09403f;
+    background-color: #0fa2a0;
 }
 
 nav.navbar.navbar-expand-md {
-    background-color: #09403f;
+    background-color: #0fa2a0;
 }
 a.navbar-brand {
   color:#ead411;
@@ -105,7 +115,7 @@ a.nav-link{
   position: relative;
   border: 1px solid #333;
   margin: 2%;
-  overflow: hidden;
+ overflow: hidden;
   
 }
 .item img {
@@ -125,14 +135,11 @@ a.nav-link{
 #footer-container-fluid
 {
 background-image: url("../images/");
-background-color:#09403f;
+background-color:#0fa2a0;
 background-attachment:scroll;
 background-repeat:no-repeat;
 background-position:center;
 background-size:cover;
-
-/*margin-left:100px;
-margin-right:100px;*/
 padding:30px;
 }
  
@@ -168,7 +175,7 @@ color:white;
   outline: none;
   overflow: hidden;
   position: relative;
-  color: #09403f;
+  color: #0fa2a0;
   font-weight: 700;
   font-size: 15px;
   background-color: #fff;
@@ -189,7 +196,7 @@ color:white;
   top: 0;
   height: 490%;
   width: 140%;
-  background: #09403f;
+  background: #0fa2a0;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
@@ -228,11 +235,6 @@ button.btn.btn-info.btn-lg {
     /*background-color:#87578b;*/
 }
 
-.btn-info {
-   /* color: #fff;
-    background-color: #17a2b8;*/
-/*    border-color: #87578b;
-*/}
 
 
 .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
@@ -280,11 +282,6 @@ button.btn.btn-info.btn-lg {
  #social-em:hover {
      color: #f39c12;
  }
-
-
-
-
-
 
 
 
@@ -352,7 +349,10 @@ a.nav-link {
   width:100%;
 }
 
-
+.card{
+ height: 450px;
+ 
+}
 .card-deck {
     margin-bottom: 20px;
-}
+     }
