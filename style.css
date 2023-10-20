@@ -97,8 +97,8 @@ nav.navbar.navbar-expand-lg {
 
 nav.navbar.navbar-expand-md {
 
-     /* background-color: #77416b;*/
-       background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+   background-color: #77416b;
+     
 }
 a.navbar-brand {
   color:#ead411;
