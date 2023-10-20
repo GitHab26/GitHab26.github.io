@@ -75,8 +75,8 @@ span.navbar-toggler-icon {
 
 .jumbotron-fluid{
 
- /* background-color: #77416b;*/
-background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+background-color: #77416b;
+
 
 }
 h1.display-4{
@@ -91,8 +91,8 @@ p.lead {
 
 nav.navbar.navbar-expand-lg {
     
-   /* background-color: #77416b;*/
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+   background-color: #77416b;
+  
 }
 
 nav.navbar.navbar-expand-md {
@@ -140,8 +140,7 @@ a.nav-link{
 #footer-container-fluid
 {
 background-image: url("../images/");
-/* background-color: #77416b;*/
-background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+background-color: #77416b;
 background-attachment:scroll;
 background-repeat:no-repeat;
 background-position:center;
