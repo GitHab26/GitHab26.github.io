@@ -7,6 +7,7 @@ font-family: 'Raleway', sans-serif;
 
 
 }
+.falling1 {color:ff6666 !important;} .falling2 {color:ff0033 !important;} a {position:relative; z-index:3;} .bbzV:before { content: "Falling Object Generator"; } 
 
  #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
   /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
